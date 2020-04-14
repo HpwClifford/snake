@@ -1,18 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #head {
-  background: black;
-  background-color: green;
   position: absolute;
 }
 
-.tail {
-  background: black;
-  background-color: blue;
+.body {
   position: absolute;
 }
 
 #board {
   border: 1px black solid;
   position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#popup {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  z-index: 1;
 }
 
 #apple {
