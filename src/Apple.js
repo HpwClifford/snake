@@ -1,8 +1,10 @@
 class Apple {
 
-  constructor($el) {
+  constructor($el, cellSize) {
     this.node = $('<img id="apple"></img>');
     this.node.attr('src', 'src/assets/apple.jpg');
+    this.node.width(cellSize);
+    this.node.height(cellSize);
     $el.append(this.node);
     this.randomPos();
   }
