@@ -1,3 +1,4 @@
+/* eslint-disable */
 class Body {
     constructor ($el, position, size, next) {
         this.position = position;

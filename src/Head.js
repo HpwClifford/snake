@@ -1,3 +1,4 @@
+/* eslint-disable */
 class Head {
   constructor($el, size) {
     this.tail = null;

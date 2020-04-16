@@ -1,3 +1,4 @@
+/* eslint-disable */
 class Board {
     constructor ($el, cellSize, width, height, speed) {
         this.width = width;

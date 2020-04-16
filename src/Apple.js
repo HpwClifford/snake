@@ -1,3 +1,4 @@
+/* eslint-disable */
 class Apple {
 
   constructor($el, size) {
